@@ -15,3 +15,12 @@ function fuzzyMatch(collection, driverName) {
     return driver.toLowerCase() === driverName.toLowerCase();
   });
 }
+
+// function matchName()
+function matchName(collection, name, hometown) {
+  return collection.filter(function (driver) {
+    return driver.name === name;
+  });
+}
+
+console.log(drivers, "Bobby");
